@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+matadata :
+  name: pod1
+spec:
+  containers:
+  - name: bhar-ngnix
+    image: nginx
+    ports:
+    - containerPort: 8080
+    
